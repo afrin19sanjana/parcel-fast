@@ -3,7 +3,7 @@ import logo from '../assets/brands/logo.png'
 const ParcelFastLogo = () => {
   return (
     <div className='flex justify-center  '>
-        <img className="mb-4 " src={logo} alt="" /><p className='font-bold  text-3xl mt-4 -ml-4'>ParcelFast</p>
+        <img className="mb-4 " src={logo} alt="" /><p className='font-extrabold urbanist  text-3xl mt-4 -ml-4'>ParcelFast</p>
     </div>
   )
 }
