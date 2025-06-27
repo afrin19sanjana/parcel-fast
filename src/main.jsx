@@ -10,6 +10,9 @@ import { router } from './route/Router.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-     <RouterProvider router={router} />
+    <div className="bg-[#edf1f3]">
+ <RouterProvider router={router} />
+    </div>
+    
   </StrictMode>,
 )
