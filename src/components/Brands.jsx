@@ -24,14 +24,14 @@ const brandLogos = [
 
 const Brands = () => {
   return (
-    <div className="py-12 text-center container mx-auto">
+    <div className="py-12  text-center container mx-auto">
       <h2 className="text-2xl font-bold mb-8">
         We've helped thousands of sales teams
       </h2>
 
       <Swiper
         modules={[Autoplay]}
-        spaceBetween={30}
+        spaceBetween={100}
         slidesPerView={4}
         loop={true}
         autoplay={{
@@ -39,7 +39,7 @@ const Brands = () => {
           disableOnInteraction: false,
           pauseOnMouseEnter: false,
         }}
-        speed={3000} // smooth continuous speed
+        speed={3000}
         breakpoints={{
           640: { slidesPerView: 2 },
           768: { slidesPerView: 3 },
@@ -51,12 +51,11 @@ const Brands = () => {
             <img
               src={brand.src}
               alt={brand.alt}
-              className="h-16 mx-auto object-contain"
+              className="h-24 mx-auto object-contain"
             />
           </SwiperSlide>
         ))}
       </Swiper>
-      <div className="border-b border-dashed border-gray-900 my-10"></div>
     </div>
   );
 };
