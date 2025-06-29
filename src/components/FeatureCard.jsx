@@ -7,11 +7,11 @@ const FeatureCard = ({feature}) => {
   return (
             <div
             
-            className="flex flex-col lg:flex-row items-center gap-10 mb-16 shadow-2xl rounded-3xl"
+            className="flex flex-col lg:flex-row items-center gap-10 mb-16 shadow-2xl rounded-3xl bg-gray-50"
           >
             {/* Left Side Animation */}
             <motion.div
-              className="w-full lg:w-1/2"
+              className="w-full lg:w-1/2 "
               initial={{ opacity: 0, x: -80 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.6, delay: 0.2 }}
@@ -23,6 +23,7 @@ const FeatureCard = ({feature}) => {
                 className="w-full h-[300px] lg:h-[400px]"
               />
             </motion.div>
+            <div className="border-dashed border-r border-2 border-blue-600"></div>
 
             {/* Right Side Content */}
             <motion.div
