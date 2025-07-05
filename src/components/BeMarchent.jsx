@@ -4,8 +4,8 @@ import top from '../assets/images/imagetop.png';
 
 const BeMarchent = () => {
     return (
-        <div className="hero my-16">
-            <div className="hero-content flex-col lg:flex-row-reverse bg-[#03373d] p-6 sm:p-10 lg:p-20 rounded-3xl relative overflow-hidden">
+        <div className="hero my-16 ">
+            <div className="hero-content flex-col lg:flex-row-reverse bg-[#03373d] p-6 sm:p-10 lg:p-20 rounded-3xl relative overflow-hidden container mx-auto">
                 {/* Decorative top-left image (responsive) */}
                 <div className="md:absolute md:top-0 md:left-0 w-20 sm:w-32 md:w-40 lg:w-auto">
                     <img src={top} alt="" className="w-full h-auto" />

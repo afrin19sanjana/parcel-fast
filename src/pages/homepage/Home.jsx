@@ -5,6 +5,8 @@ import ServiceSection from '../../components/ServiceSection'
 import Brands from '../../components/Brands'
 import Features from '../../components/Features'
 import BeMarchent from '../../components/BeMarchent'
+import FindQuestion from '../../components/FindQuestion'
+import CustomerFeedback from '../../components/CustomerFeedback'
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
    <Brands></Brands>
    <Features></Features>
    <BeMarchent></BeMarchent>
+   <CustomerFeedback></CustomerFeedback>
+   <FindQuestion></FindQuestion>
    </>
   )
 }

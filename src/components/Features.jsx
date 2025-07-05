@@ -31,6 +31,7 @@ const Features = () => {
   return (
     <section className="py-16 ">
       <div className="container mx-auto px-6  ">
+         <div className="container mx-auto border-dashed border-2 border-b-cyan-950 my-16"></div>
         {serviceHighlights.map((feature, index) => (
           <FeatureCard key={index} feature={feature}></FeatureCard>
         ))}
